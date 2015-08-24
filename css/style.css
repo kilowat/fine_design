@@ -71,15 +71,158 @@ body{
     align-items: center;
 }
 .slide-head {
-    background: #ccc none repeat scroll 0 0;
+    background: url(/images/sl-head-bg.png);
     left: 30%;
     position: absolute;
     top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
+
 .see-detail {
-    background: #ccc none repeat scroll 0 0;
+    background: #008b9e  none repeat scroll 0 0;
     color: #fff;
     position: absolute;
     right: 28%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 /*end slider component*/
+
+/*start component last project on main page*/
+.last-project-head{
+    text-align: center;
+}
+.last-project-cell img {
+    width: 100%;
+    height: auto;
+}
+.last-project-cell{
+    margin-bottom: 10px;
+    position: relative;
+}
+.last-project-head-row{
+    margin-bottom: 18px;
+}
+.last-project-cell-head {
+    background: rgba(0, 0, 0, 0) url("/images/items-bg.png") repeat scroll 0 0;
+    bottom: 0;
+    height: 35px;
+    left: 0;
+    line-height: 1em;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    position: absolute;
+    width: 100%;
+}
+.last-project-cell-head a{
+    font-size: 0.9em;
+    color: #fff;
+
+
+}
+/*end component last project on main page*/
+
+/***dop media query form other display**/
+@media (min-width: 1200px) {
+
+
+    
+}
+@media  (min-width: 992px) and (max-width: 1200px) {
+    nav a {
+        font-size: 1.6em;
+    }
+    .top-phone-section strong {
+        color: #424241;
+        font-size: 1.1em;
+    }
+
+}
+
+@media  (max-width: 992px) {
+    body{
+        text-align: center;
+    }
+    .top-section{
+        padding-top: 0px;
+    }
+    nav{
+        padding-top: 0px;
+        margin-bottom: 20px;
+    }
+    .top-section{
+        margin-bottom: 20px;
+    }
+}
+
+@media  (min-width: 768px) and (max-width: 992px) {
+
+}
+
+@media  (max-width: 768px) {
+   
+}
+@media  (max-width: 480px) {
+    nav a {
+        font-size: 1.3em;
+    }
+    .logo{
+        width: 70%;
+    }
+}
+
+/*******extension bootsrap css by KADANCEV S.  YUUUUUUUU!!!!!!********/
+.col-xs-1-5,
+.col-sm-1-5,
+.col-md-1-5,
+.col-lg-1-5 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+ 
+.col-xs-1-5 {
+  width: 20%;
+  float: left;
+}
+ 
+@media (min-width: 768px) {
+  .col-sm-1-5 {
+    width: 20%;
+    float: left;
+  }
+}
+ 
+@media (min-width: 992px) {
+  .col-md-1-5 {
+    width: 20%;
+    float: left;
+  }
+}
+ 
+@media (min-width: 1200px) {
+  .col-lg-1-5 {
+    width: 20%;
+    float: left;
+  }
+}
+
+.col-xs-s-2 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .col-xs-s-2 {
+    width: 33.3%;
+    float: left;
+  }
+}
+
