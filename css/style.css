@@ -136,8 +136,39 @@ body{
 /*end component last project on main page*/
 
 /*start component last portfolio on main page*/
-.last-portfolio-head>strong, .last-portfolio-head>a{
-    display: inline-block;
+.last-portfolio-head{
+    text-align: center;
+}
+.last-portfolio-head>strong{
+    display: block;
+}
+.last-portfolio-head>strong:first-child{
+    color: #424241;
+    font-size: 1.2em;
+}
+.last-portfolio-head>a{
+  background: #008b9e;
+  display: inline-block;
+  width: 330px;
+  height: 25px;
+  padding-left: 55px;
+  padding-right: 55px;
+  color: #fff;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+
+}
+.last-portfolio-head>strong:last-child{
+    color: #424241;
+    font-size: 1.7em;
+}
+.last-portfolio-cell img {
+    width: 100%;
+    height: auto;
+}
+.last-portfolio-cell{
+    margin-bottom: 10px;
+    position: relative;
 }
 /*end component last portfolio on main page*/
 
