@@ -142,7 +142,7 @@ body{
 .last-portfolio-head>strong{
     display: block;
 }
-.last-portfolio-head>strong:first-child{
+.text-head-one{
     color: #424241;
     font-size: 1.2em;
 }
@@ -158,7 +158,7 @@ body{
   margin-bottom: 20px;
 
 }
-.last-portfolio-head>strong:last-child{
+.text-head-two{
     color: #424241;
     font-size: 1.7em;
 }
@@ -169,6 +169,29 @@ body{
 .last-portfolio-cell{
     margin-bottom: 10px;
     position: relative;
+}
+
+.last-portfolio-cell-head{
+    background: rgba(0, 0, 0, 0) url("/images/items-bg.png") repeat scroll 0 0;
+    bottom: 0;
+    height: 35px;
+    left: 0;
+    line-height: 1em;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    position: absolute;
+    width: 100%;
+
+}
+
+.last-portfolio-cell-head>a{
+    font-size: 0.9em;
+    color: #eeeeee;
+}
+.last-portfolio-head-row {
+    margin-bottom: 10px;
 }
 /*end component last portfolio on main page*/
 
