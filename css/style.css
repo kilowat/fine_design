@@ -1,5 +1,56 @@
+@font-face {
+    font-family: "SegoeUIRegular";
+    src: url("/fonts/SegoeUIRegular/SegoeUIRegular.eot");
+    src: url("../fonts/SegoeUIRegular/SegoeUIRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SegoeUIRegular/SegoeUIRegular.woff") format("woff"),
+    url("../fonts/SegoeUIRegular/SegoeUIRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "SegoeUIBold"; */
+@font-face {
+    font-family: "SegoeUIBold";
+    src: url("/fonts/SegoeUIBold/SegoeUIBold.eot");
+    src: url("/fonts/SegoeUIBold/SegoeUIBold.eot?#iefix")format("embedded-opentype"),
+    url("/fonts/SegoeUIBold/SegoeUIBold.woff") format("woff"),
+    url("/fonts/SegoeUIBold/SegoeUIBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "SegoeUIItalic"; */
+@font-face {
+    font-family: "SegoeUIItalic";
+    src: url("/fonts/SegoeUIItalic/SegoeUIItalic.eot");
+    src: url("/fonts/SegoeUIItalic/SegoeUIItalic.eot?#iefix")format("embedded-opentype"),
+    url("/fonts/SegoeUIItalic/SegoeUIItalic.woff") format("woff"),
+    url("/fonts/SegoeUIItalic/SegoeUIItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "SegoeUILight"; */
+@font-face {
+    font-family: "SegoeUILight";
+    src: url("/fonts/SegoeUILight/SegoeUILight.eot");
+    src: url("/fonts/SegoeUILight/SegoeUILight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SegoeUILight/SegoeUILight.woff") format("woff"),
+    url("../fonts/SegoeUILight/SegoeUILight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "SegoeUISemiBold"; */
+@font-face {
+    font-family: "SegoeUISemiBold";
+    src: url("/fonts/SegoeUISemiBold/SegoeUISemiBold.eot");
+    src: url("/fonts/SegoeUISemiBold/SegoeUISemiBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/SegoeUISemiBold/SegoeUISemiBold.woff") format("woff"),
+    url("../fonts/SegoeUISemiBold/SegoeUISemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
 body{
     background: #fff;
+	font-family:SegoeUIRegular;
 }
 .top-section {
     min-height: 100px;
@@ -21,6 +72,7 @@ body{
     nav a{
         color: #424241;
         font-size: 1.7em;
+		font-family:SegoeUISemiBold;
     }
     nav ul li:nth-child(2){
         padding-left:15px;
@@ -39,7 +91,7 @@ body{
     color: #fff;
 }
 .top-phone-section strong{
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: #424241;
 }
 /*start slider component*/
@@ -223,6 +275,17 @@ body{
 .social-section>div:last-child{
 	text-align:left;
 }
+.feed-btn-wrapper{
+	text-align:center;
+}
+.feed-b-btn {
+    background: #ec008c none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    font-size: 2.1em;
+    height: 67px;
+	box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.7);
+}
 /***dop media query form other display**/
 @media (min-width: 1200px) {
 
@@ -235,9 +298,11 @@ body{
     }
     .top-phone-section strong {
         color: #424241;
-        font-size: 1.1em;
+        font-size: 0.8em;
     }
-
+	.logo{
+		
+	}
 }
 
 @media  (max-width: 992px) {
@@ -266,12 +331,65 @@ body{
 	}
 }
 
+.feed-back-bottom{
+	margin-bottom:30px;
+	margin-top:30px;
+}
+.about{
+	color:#424241;
+	text-align:left;
+}
+footer{
+	margin-top:30px;
+}
+.link-section {
+    list-style: outside none none;
+}
+.link-section li {
+   display:inline-block;
+   padding-left:15px;
+   padding-right:15px;
+}
+.coop{
+	color:#424241;
+}
+.social-ico{
+	list-style:none;
+}
+.social-ico li{
+	display:inline-block;
+}
+.social-ico a{
+	height: 48px;
+    width: 48px;
+    display: inline-block;
+}
+.vk{
+	background: rgba(0, 0, 0, 0) url("/images/social-ico.png") no-repeat scroll 0 0;
+}
+.vk:hover{
+	background: rgba(0, 0, 0, 0) url("/images/social-ico.png") no-repeat scroll 0 100%;
+}
+.fb{
+	background: rgba(0, 0, 0, 0) url("/images/social-ico.png") no-repeat scroll 51% 0;
+}
+.inst{
+	background: rgba(0, 0, 0, 0) url("/images/social-ico.png") no-repeat scroll 101% 0%;
+}
+.fb:hover{
+	background: rgba(0, 0, 0, 0) url("/images/social-ico.png") no-repeat scroll 51% 100%;
+}
+.inst:hover{
+	background: rgba(0, 0, 0, 0) url("/images/social-ico.png") no-repeat scroll 101% 100%;
+}
 @media  (min-width: 768px) and (max-width: 992px) {
 	
 }
 
 @media  (max-width: 768px) {
-   
+   	.feed-b-btn{
+		font-size:1.4em;
+	}
 }
 @media  (max-width: 480px) {
     nav a {
@@ -280,6 +398,13 @@ body{
     .logo{
         width: 70%;
     }
+	.feed-b-btn{
+		font-size:1.4em;
+	}
+	.about{
+		text-align:center;
+	}
+	
 }
 
 /*******extension bootsrap css by KADANCEV S.  YUUUUUUUU!!!!!!********/
