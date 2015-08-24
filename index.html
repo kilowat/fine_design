@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Bootstrap 101 Template</title>
-
+      <script src="/js/jquery-2.1.4.min.js"></script>
     <!-- Bootstrap -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/style.css" rel="stylesheet">
@@ -20,10 +20,95 @@
 <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100,700&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
   </head>
   <body>
+    <div class="container">
+      <div class="row top-section">
+       
+        <nav class="col-md-4">
+          <!--start component menu-->
+            <ul>
+              <li><a href="#" title="#">портфолио</a></li>
+              <li><a href="#" title="#">блог</a></li>
+              <li><a href="#" title="#">о студии</a></li>
+            </ul>
+          <!--end component menu-->
+        </nav>
 
+        <div class="col-md-4 logo-section">
+          <a href="/" title="Fine Design">
+            <img src="/images/logo.png" title="Fine Design">
+          </a>
+        </div>
+
+        <div class="col-md-4 top-phone-section">
+          <div class="col-md-6">
+            <!--start include area-->
+              <ul>
+                <li><strong>+7 (905) 403-25-20</strong></li>
+                <li><strong>+7 (909) 457-05-00</strong></li>
+              </ul>
+            <!--end include area-->
+          </div>
+          <div class="col-md-6 callback-section">
+              <!--start component callback-->
+                <button class="feed-back-m">Обратный связь</button>
+              <!--end component callback-->
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid slider-container">
+      <div class="row">
+        <!--start slider component-->
+        <link rel="stylesheet" href="/css/swiper.min.css">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+
+              <div class="swiper-slide">
+                <div class="slide-head">
+                  <h2>Заголовок слайда1</h2>
+                </div>
+                <a class="see-detail" href="#" title="Подробнее">Хочу подробнее</a>
+                <img src="/images/slide-1.jpg" title="slide">
+              </div>
+
+              <div class="swiper-slide">
+                <div class="slide-head">
+                  <h2>Заголовок слайда2</h2>
+                </div>
+                <a class="see-detail" href="#" title="Подробнее">Хочу подробнее</a>
+                <img src="/images/slide-1.jpg" title="slide">
+              </div>
+
+              <div class="swiper-slide">
+                <div class="slide-head">
+                  <h2>Заголовок слайда3</h2>
+                </div>
+                <a class="see-detail" href="#" title="Подробнее">Хочу подробнее</a>
+                <img src="/images/slide-1.jpg" title="slide">
+              </div>
+
+          </div>
+            <div class="swiper-button-next"></div>
+           <div class="swiper-button-prev"></div>
+        </div>
+        <script>
+            $(document).ready(function(){
+
+              var swiper = new Swiper('.swiper-container', {
+                  nextButton: '.swiper-button-next',
+                  prevButton: '.swiper-button-prev',
+              });
+
+            })
+          </script>
+        <!--end slider component-->
+      </div>
+    </div>
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="/js/jquery-2.1.4.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/swiper.min.js"></script>
   </body>
 </html>
