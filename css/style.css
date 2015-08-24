@@ -119,6 +119,14 @@ body{
     position: absolute;
     width: 100%;
 }
+.last-project-head > h2 {
+    text-transform: uppercase;
+    color: #424241;
+}
+.last-project-head > strong {
+    color: #424241;
+    font-size: 1.2em;
+}
 .last-project-cell-head a{
     font-size: 0.9em;
     color: #fff;
@@ -126,6 +134,13 @@ body{
 
 }
 /*end component last project on main page*/
+
+/*start component last portfolio on main page*/
+.last-portfolio-head>strong, .last-portfolio-head>a{
+    display: inline-block;
+}
+/*end component last portfolio on main page*/
+
 
 /***dop media query form other display**/
 @media (min-width: 1200px) {
