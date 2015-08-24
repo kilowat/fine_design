@@ -195,7 +195,34 @@ body{
 }
 /*end component last portfolio on main page*/
 
+/*start component why we on main page*/
+.we-cell > a {
+    color: #008b9e;
+    display: block;
+    font-size: 1.7em;
+    text-align: center;
+}
+.we-portfolio-head{
+	text-align: center;
+	margin-top:30px;
+}
+.we-text{
+	color:#424241;
+}
+/*end component why we on main page*/
 
+.social-section-head{
+	color:#424241;
+	text-align:center;
+	font-size:1.7em;
+	margin-top:30px;
+}
+.social-section>div:first-child{
+	text-align:right;
+}
+.social-section>div:last-child{
+	text-align:left;
+}
 /***dop media query form other display**/
 @media (min-width: 1200px) {
 
@@ -227,10 +254,20 @@ body{
     .top-section{
         margin-bottom: 20px;
     }
+	.social-section>div:first-child{
+		text-align:center;
+	}
+	.social-section>div:last-child{
+		text-align:center;
+	}
+	.katya{
+		width:60%;
+		margin-top:20px;
+	}
 }
 
 @media  (min-width: 768px) and (max-width: 992px) {
-
+	
 }
 
 @media  (max-width: 768px) {
