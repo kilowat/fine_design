@@ -140,6 +140,7 @@ body{
     padding-right: 30px;
     padding-top: 3px;
     padding-bottom: 3px;
+     bottom: 20%;
 }
 /*end slider component*/
 
@@ -404,10 +405,16 @@ footer{
 	.about{
 		text-align:center;
 	}
+    .slide-head h2{
+        font-size: 1em;
+    }
+    .see-detail{
+        bottom:0px;
+    }
 	
 }
 
-/*******extension bootsrap css by KADANCEV S.  YUUUUUUUU!!!!!!********/
+/*******extension bootsrap css********/
 .col-xs-1-5,
 .col-sm-1-5,
 .col-md-1-5,
