@@ -421,18 +421,19 @@ footer{
     vertical-align: top;
 }
 .blog-list-top-cell {
-
+	min-height: 30px;
     font-size: 1.1em;
     margin-bottom: 10px;
 }
 .blog-list-data {
     background: #4c4c4c none repeat scroll 0 0;
     color: #fff;
-    padding:5px;
+    padding: 6px 5px;
     float: left;
     margin-right: 5px;
 }
-.blog-list-text{
+.blog-list-text {
+    line-height: 1.3em;
     padding-top: 10px;
 }
 .see-detal-item {
@@ -443,9 +444,55 @@ footer{
     text-decoration: none;
     display: inline-block;
 }
+.see-detal-item:hover{
+	color:#fff;
+	text-decoration:none;
+	background: #ec008c;
+}
+.blog-list-item{
+	margin-bottom:20px;
+}
 .blog-list-bottom-cell {
     float: right;
 }
+.see-count{
+	position:relative;
+	margin-right:15px;
+	margin-left:15px;
+}
+.see-count::before {
+    background: rgba(0, 0, 0, 0) url("/images/see-ico.png") no-repeat scroll center center;
+    content: "";
+    display: inline-block;
+    height: 11px;
+    left: -35px;
+    position: absolute;
+    top: 4px;
+    width: 25px;
+}
+.like-count{
+	margin-right:15px;
+	margin-left:15px;
+	position:relative;
+}
+
+
+.like-count::before {
+    background: rgba(0, 0, 0, 0) url("/images/like-ico.png") no-repeat scroll center center;
+    content: "";
+    display: inline-block;
+    height: 12px;
+    left: -20px;
+    position: absolute;
+    top: 4px;
+    width: 12px;
+}
+.page-descr {
+	font-size: 1.2em;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
 /*end component blog list*/
 
 
@@ -527,7 +574,18 @@ footer{
             min-height: 50px;
             margin-bottom: 5px;
     }
-
+	.blog-list-data {
+		display: inline-block;
+		float: none;
+		margin-bottom: 2px;
+	}
+	.blog-list-bottom-cell{
+		float:none;
+	}
+	.blog-list-item{
+		border-bottom:2px solid #ccc;
+		padding-bottom:20px;
+	}
 
 }
 
@@ -557,6 +615,7 @@ footer{
             min-height: 50px;
             margin-bottom: 5px;
     }
+
 }
 @media  (max-width: 480px) {
     nav a {
@@ -590,6 +649,7 @@ footer{
     body{
         margin-top: 50px;
     }
+
 }
 
 /*******extension bootsrap css********/
