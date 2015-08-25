@@ -25,7 +25,7 @@
         <nav class="col-md-4 col-sm-12 col-xs-col-12">
           <!--start component menu-->
             <ul>
-              <li><a href="#" title="#">портфолио</a></li>
+              <li><a class="selected" href="#" title="#">портфолио</a></li>
               <li><a href="#" title="#">блог</a></li>
               <li><a href="#" title="#">о студии</a></li>
             </ul>
@@ -56,10 +56,9 @@
         </div>
       </div>
     </div>
-
+    <!--start slider component-->
     <div class="container-fluid slider-container">
       <div class="row">
-        <!--start slider component-->
         <link rel="stylesheet" href="/css/swiper.min.css">
         <div class="swiper-container">
           <div class="swiper-wrapper">
@@ -69,7 +68,7 @@
                   <h2>Заголовок слайда1</h2>
                 </div>
                 <a class="see-detail" href="#" title="Подробнее">Хочу подробнее</a>
-                <img src="/images/slide-1.jpg" title="slide">
+                <div style="background:url(/images/slide-1.jpg);height: 100%;width: 100%;"> </div>
               </div>
 
               <div class="swiper-slide">
@@ -102,11 +101,10 @@
 
             })
           </script>
-        <!--end slider component-->
       </div>
     </div>
   </div>
-
+   <!--end slider component-->
   <main>
     <!--start component last project-->
     <div class="container last-project">

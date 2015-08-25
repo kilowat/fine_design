@@ -73,11 +73,20 @@ body{
         color: #424241;
         font-size: 1.7em;
 		font-family:SegoeUISemiBold;
+        text-decoration: none;
     }
     nav ul li:nth-child(2){
         padding-left:15px;
         padding-right: 15px;
     }
+    nav .selected {
+        border-bottom: 3px solid #008b9e;
+    }
+    nav a:hover{
+        border-bottom: 3px solid #008b9e;
+        text-decoration: none;
+    }
+
 /*end top menu*/
 .top-phone-section {
     padding-top: 18px;
