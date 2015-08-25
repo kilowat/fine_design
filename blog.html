@@ -20,45 +20,182 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container">
-      <div class="row top-section">
-        <nav class="col-md-4 col-sm-12 col-xs-col-12">
-          <!--start component menu-->
-            <ul>
-              <li><a class="selected" href="#" title="#">портфолио</a></li>
-              <li><a href="#" title="#">блог</a></li>
-              <li><a href="#" title="#">о студии</a></li>
-            </ul>
-          <!--end component menu-->
-        </nav>
-
-        <div class="col-md-4 col-sm-12 col-xs-col-12 logo-section">
-          <a href="/" title="Fine Design">
-            <img class="logo" src="/images/logo.png" alt="Fine Design">
-          </a>
-        </div>
-
-        <div class="col-md-4 col-sm-12 col-xs-col-12 top-phone-section">
-          <div class="col-md-6">
-            <!--start include area-->
-              <ul>
-                <li><strong>+7 (905) 403-25-20</strong></li>
-                <li><strong>+7 (909) 457-05-00</strong></li>
+    <div class="container-fluid top-fixed">
+      <div class="container">
+        <div class="row top-section">
+          <nav class="col-md-4 col-sm-12 col-xs-col-12">
+            <!--start component menu-->
+              <button id="menu-show" class="show-menu">Меню</button>
+              <ul id="menu-top">
+                <li><a class="selected" href="#" title="#">портфолио</a></li>
+                <li><a href="#" title="#">блог</a></li>
+                <li><a href="#" title="#">о студии</a></li>
               </ul>
-            <!--end include area-->
+              <script>
+                $(document).ready(function(){
+                   $('#menu-show').click(function(){
+                    $('#menu-top').slideToggle();
+                  });                 
+                });
+
+              </script>
+            <!--end component menu-->
+          </nav>
+
+          <div class="col-md-4 col-sm-12 col-xs-col-12 logo-section">
+            <a href="/" title="Fine Design">
+              <img class="logo" src="/images/logo.png" alt="Fine Design">
+            </a>
           </div>
-          <div class="col-md-6 callback-section">
-              <!--start component callback-->
-                <button class="feed-back-m">Обратный связь</button>
-              <!--end component callback-->
+
+          <div class="col-md-4 col-sm-12 col-xs-col-12 top-phone-section">
+            <div class="col-md-6">
+              <!--start include area-->
+                <ul>
+                  <li><strong>+7 (905) 403-25-20</strong></li>
+                  <li><strong>+7 (909) 457-05-00</strong></li>
+                </ul>
+              <!--end include area-->
+            </div>
+            <div class="col-md-6 callback-section">
+                <!--start component callback-->
+                  <button class="feed-back-m">Обратный связь</button>
+                <!--end component callback-->
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <!--start component bread crumbs-->
-    <!--end component bread crumbs-->
   <main>
+    <div class="container">
+    <!--start section head on seconds page-->
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="section-title">Блог</h2>
+        </div>
+      </div>
 
+      <div class="row">
+        <div class="col-md-12">
+          <strong class="page-descr">Описание раздела</strong>
+        </div>
+      </div>
+    <!--end section head on seconds page-->
+    </div>
+    <!--start component blog list-->
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-6 col-sm-12 col-xs-12">
+            <div class="blog-list-cell">
+              <div class="blog-list-top-cell">
+                  <span class="blog-list-data">12.07.2015</span>
+                  <span>Задача организации, в особенности же сложившаяся структура организации позволяет оценить значение дальнейших направлений </span>
+              </div>
+              <img src="/images/blog-item.png" alt="#">
+              <div class="blog-list-text">
+                 Задача организации, в особенности же сложившаяся структура организации позволяет оценить значение дальнейших направлений развития. Товарищи! рамки и место обучения кадров представляет собой интересный эксперимент проверки форм развития. Не следует, однако забывать, что постоянное информационно-пропагандистское обеспечение нашей деятельности в значительной степени обуславливает создание форм развития.
+              </div>
+              <div class="blog-list-bottom-cell">
+                <span class="see-count">12</span>
+                <span class="like-count">4</span>
+                <a href="#" class="see-detal-item">Хочу знать больше</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-sm-12 col-xs-12">
+            <div class="blog-list-cell">
+              <div class="blog-list-top-cell">
+                  <span class="blog-list-data">12.07.2015</span>
+                  <span>Задача организации, в особенности же сложившаяся структура организации позволяет оценить значение дальнейших направлений </span>
+              </div>
+              <img src="/images/blog-item.png" alt="#">
+              <div class="blog-list-text">
+                 Задача организации, в особенности же сложившаяся структура организации позволяет оценить значение дальнейших направлений развития. Товарищи! рамки и место обучения кадров представляет собой интересный эксперимент проверки форм развития. Не следует, однако забывать, что постоянное информационно-пропагандистское обеспечение нашей деятельности в значительной степени обуславливает создание форм развития.
+              </div>
+              <div class="blog-list-bottom-cell">
+                <span class="see-count">12</span>
+                <span class="like-count">4</span>
+                <a href="#" class="see-detal-item">Хочу знать больше</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-sm-12 col-xs-12">
+            <div class="blog-list-cell">
+              <div class="blog-list-top-cell">
+                  <span class="blog-list-data">12.07.2015</span>
+                  <span>Задача организации, в особенности же сложившаяся структура организации позволяет оценить значение дальнейших направлений </span>
+              </div>
+              <img src="/images/blog-item.png" alt="#">
+              <div class="blog-list-text">
+                 Задача организации, в особенности же сложившаяся структура организации позволяет оценить значение дальнейших направлений развития. Товарищи! рамки и место обучения кадров представляет собой интересный эксперимент проверки форм развития. Не следует, однако забывать, что постоянное информационно-пропагандистское обеспечение нашей деятельности в значительной степени обуславливает создание форм развития.
+              </div>
+              <div class="blog-list-bottom-cell">
+                <span class="see-count">12</span>
+                <span class="like-count">4</span>
+                <a href="#" class="see-detal-item">Хочу знать больше</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-sm-12 col-xs-12">
+            <div class="blog-list-cell">
+              <div class="blog-list-top-cell">
+                  <span class="blog-list-data">12.07.2015</span>
+                  <span>Задача организации, в особенности же сложившаяся структура организации позволяет оценить значение дальнейших направлений </span>
+              </div>
+              <img src="/images/blog-item.png" alt="#">
+              <div class="blog-list-text">
+                 Задача организации, в особенности же сложившаяся структура организации позволяет оценить значение дальнейших направлений развития. Товарищи! рамки и место обучения кадров представляет собой интересный эксперимент проверки форм развития. Не следует, однако забывать, что постоянное информационно-пропагандистское обеспечение нашей деятельности в значительной степени обуславливает создание форм развития.
+              </div>
+              <div class="blog-list-bottom-cell">
+                <span class="see-count">12</span>
+                <span class="like-count">4</span>
+                <a href="#" class="see-detal-item">Хочу знать больше</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-sm-12 col-xs-12">
+            <div class="blog-list-cell">
+              <div class="blog-list-top-cell">
+                  <span class="blog-list-data">12.07.2015</span>
+                  <span>Задача организации, в особенности же сложившаяся структура организации позволяет оценить значение дальнейших направлений </span>
+              </div>
+              <img src="/images/blog-item.png" alt="#">
+              <div class="blog-list-text">
+                 Задача организации, в особенности же сложившаяся структура организации позволяет оценить значение дальнейших направлений развития. Товарищи! рамки и место обучения кадров представляет собой интересный эксперимент проверки форм развития. Не следует, однако забывать, что постоянное информационно-пропагандистское обеспечение нашей деятельности в значительной степени обуславливает создание форм развития.
+              </div>
+              <div class="blog-list-bottom-cell">
+                <span class="see-count">12</span>
+                <span class="like-count">4</span>
+                <a href="#" class="see-detal-item">Хочу знать больше</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-sm-12 col-xs-12">
+            <div class="blog-list-cell">
+              <div class="blog-list-top-cell">
+                  <span class="blog-list-data">12.07.2015</span>
+                  <span>Задача организации, позволяет оценить значение дальнейших направлений </span>
+              </div>
+              <img src="/images/blog-item.png" alt="#">
+              <div class="blog-list-text">
+                 Задача организации, в особенности же сложившаяся структура организации позволяет оценить значение дальнейших направлений развития. Товарищи! рамки и место обучения кадров представляет собой интересный эксперимент проверки форм развития. Не следует, однако забывать, что постоянное информационно-пропагандистское обеспечение нашей деятельности в значительной степени обуславливает создание форм развития.
+              </div>
+              <div class="blog-list-bottom-cell">
+                <span class="see-count">12</span>
+                <span class="like-count">4</span>
+                <a href="#" class="see-detal-item">Хочу знать больше</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>      
+    <!--end component blog detail-->
   </main>
   <footer class="container">
     <div class="row">

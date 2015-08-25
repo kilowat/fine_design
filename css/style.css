@@ -52,6 +52,7 @@ body{
     margin-top: 100px;
     background: #fff;
 	font-family:SegoeUIRegular;
+    color: #4c4c4c;
 }
 .top-section {
     min-height: 100px;
@@ -406,9 +407,54 @@ footer{
 .inst:hover{
     background: rgba(0, 0, 0, 0) url("/images/social-ico.png") no-repeat scroll 101% 100%;
 }
+
+/*start component blog list*/
+
+.blog-list-cell > img {
+    width: 100%;
+}
+.blog-list-top-cell > span:last-child {
+    display: table-cell;
+    font-family: SegoeUISemiBold;
+    font-size: 1.1em;
+    line-height: 1em;
+    vertical-align: top;
+}
+.blog-list-top-cell {
+
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+.blog-list-data {
+    background: #4c4c4c none repeat scroll 0 0;
+    color: #fff;
+    padding:5px;
+    float: left;
+    margin-right: 5px;
+}
+.blog-list-text{
+    padding-top: 10px;
+}
+.see-detal-item {
+    background: #008b9e none repeat scroll 0 0;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 5px 15px;
+    text-decoration: none;
+    display: inline-block;
+}
+.blog-list-bottom-cell {
+    float: right;
+}
+/*end component blog list*/
+
+
 /***dop media query form other display**/
 @media (min-width: 1200px) {
-    
+    .blog-list-top-cell {
+        height: 36px;
+        overflow: hidden;
+    }
 }
 @media  (min-width: 992px) and (max-width: 1200px) {
     nav a {
@@ -418,7 +464,10 @@ footer{
         color: #424241;
         font-size: 0.8em;
     }
-
+    .blog-list-top-cell {
+        height: 36px;
+        overflow: hidden;
+    }
 }
 
 @media  (max-width: 992px) {
@@ -478,6 +527,7 @@ footer{
             min-height: 50px;
             margin-bottom: 5px;
     }
+
 
 }
 
