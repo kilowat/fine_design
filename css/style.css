@@ -407,7 +407,14 @@ footer{
 .inst:hover{
     background: rgba(0, 0, 0, 0) url("/images/social-ico.png") no-repeat scroll 101% 100%;
 }
-
+.page-descr {
+	font-size: 1.2em;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.section-title{
+	text-transform:uppercase;
+}
 /*start component blog list*/
 
 .blog-list-cell > img {
@@ -486,11 +493,6 @@ footer{
     position: absolute;
     top: 4px;
     width: 12px;
-}
-.page-descr {
-	font-size: 1.2em;
-	margin-bottom: 50px;
-	text-align: center;
 }
 
 /*end component blog list*/
