@@ -805,7 +805,7 @@ footer{
         display: none;
     }
     .feed-back-m-2 {
-        background: #008b9e none repeat scroll 0 0;
+        background: rgba(0, 0, 0, 0) url("/images/ph-ico.png") repeat scroll center center / cover ;
         border: medium none;
         display: inline-block;
         height: 25px;
@@ -815,11 +815,6 @@ footer{
         top: -5px;
         width: 30px;
     }
-    .feed-back-m-2:hover{
-        background: #ec008c none repeat scroll 0 0;
-    
-    }
-    
 }
 
 
