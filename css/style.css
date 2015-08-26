@@ -498,6 +498,22 @@ footer{
 /*end component blog list*/
 
 
+/*start component blog-detail*/
+.blog-detail-data {
+    background: #4c4c4c none repeat scroll 0 0;
+    color: #fff;
+    padding: 6px 5px;
+    margin-right: 25px;
+}
+.blog-detail-img{
+    float:left;
+    margin-right: 10px;
+}
+.blog-detail-top{
+    margin-bottom: 10px;
+}
+/*end component blog-detail*/
+
 /***dop media query form other display**/
 @media (min-width: 1200px) {
     .blog-list-top-cell {
