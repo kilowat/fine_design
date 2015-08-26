@@ -705,9 +705,9 @@ footer{
     nav a {
         font-size: 1.6em;
     }
-    .top-phone-section strong {
-        color: #424241;
-        font-size: 0.8em;
+    .col-md-6.phone-number {
+        padding-left: 0;
+        padding-right: 0;
     }
     .blog-list-top-cell {
         height: 36px;
