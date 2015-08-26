@@ -774,6 +774,16 @@ footer{
     .team-cell-wrapper > img, .team-props {
         float: none;
     }
+    .team-cell {
+         border-bottom: 2px solid #ccc;
+         margin-bottom: 5px;
+         margin-top: 5px;
+    }
+    .we-work-cell {
+        border-bottom: 2px solid #ccc;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
 }
 
 
