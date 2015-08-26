@@ -90,8 +90,15 @@ strong{
     text-decoration:none;
     background: #ec008c;
 }
+.feed-back-m-2{
+    display: none;
+}
 .upper{
     text-transform: uppercase;
+}
+
+.feed-back-m-2{
+    display: none;
 }
 /*start top menu*/
 nav{
@@ -230,6 +237,12 @@ nav .selected {
     padding-bottom: 3px;
      bottom: 20%;
 }
+.see-detail:hover {
+    background: #ec008c   none repeat scroll 0 0;
+    text-decoration: none;
+    color: #fff;
+
+}
 /*end slider component*/
 
 /*start component last project on main page*/
@@ -298,6 +311,10 @@ nav .selected {
   font-size: 1.2em;
   margin-bottom: 20px;
 
+}
+.last-portfolio-head>a:hover{
+    text-decoration: none;
+    background: #ec008c;
 }
 .text-head-two{
     color: #424241;
@@ -745,7 +762,7 @@ footer{
     .top-phone-section {
         padding-top: 5px;
     }
-    .top-phone-section{
+    .phone-number{
         display: none;
     }
     .top-fixed{
@@ -784,6 +801,25 @@ footer{
         padding-bottom: 10px;
         padding-top: 10px;
     }
+    .feed-back-m{
+        display: none;
+    }
+    .feed-back-m-2 {
+        background: #008b9e none repeat scroll 0 0;
+        border: medium none;
+        display: inline-block;
+        height: 25px;
+        margin: 0 0 0 10px;
+        padding: 0;
+        position: relative;
+        top: -5px;
+        width: 30px;
+    }
+    .feed-back-m-2:hover{
+        background: #ec008c none repeat scroll 0 0;
+    
+    }
+    
 }
 
 
