@@ -90,6 +90,9 @@ strong{
     text-decoration:none;
     background: #ec008c;
 }
+.upper{
+    text-transform: uppercase;
+}
 /*start top menu*/
 nav{
     padding-top: 25px;
@@ -623,6 +626,57 @@ footer{
 }
 /*end component portfolio detail*/
 
+/*start about page*/
+.about-one{
+    text-align: center;
+}
+.about-one h3{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+
+}
+/*end about page*/
+
+/*start component how we work about page*/
+.how-we-work{
+    text-align: center;
+}
+.how-we-work h4 {
+    font-family: SegoeUISemiBold;
+}
+/*end component how we work about page*/
+
+
+/*start component team*/
+.team-head{
+    text-align: center;
+}
+.team-head h4{
+    font-family: SegoeUISemiBold;
+    font-size: 1.3em;
+}
+.team-cell-wrapper > img {
+    float: left;
+}
+.team-props {
+    float: left;
+    list-style: outside none none;
+    margin-left: 0;
+    padding-left: 10px;
+}
+.team-props li:nth-child(2n) {
+    margin-bottom: 10px;
+}
+.team-props{
+    font-size: 1.1em;
+}
+.team-props-name {
+    font-family: SegoeUISemiBold;
+}
+/*end component team*/
+
+
 /***dop media query form other display**/
 @media (min-width: 1200px) {
     .blog-list-top-cell {
@@ -717,6 +771,9 @@ footer{
         width: 100px;
     }
 
+    .team-cell-wrapper > img, .team-props {
+        float: none;
+    }
 }
 
 

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+      <script src="/js/jquery-2.1.4.min.js"></script>
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet" title="#">
+    <link href="/css/style.css" rel="stylesheet" title="#">
+    <link href="/css/swiper.min.css" rel="stylesheet" title="#">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container-fluid top-fixed">
+      <div class="container">
+        <div class="row top-section">
+          <nav class="col-md-4 col-sm-12 col-xs-col-12">
+            <!--start component menu-->
+              <button id="menu-show" class="show-menu">Меню</button>
+              <ul id="menu-top">
+                <li><a class="selected" href="#" title="#">портфолио</a></li>
+                <li><a href="#" title="#">блог</a></li>
+                <li><a href="#" title="#">о студии</a></li>
+              </ul>
+              <script>
+                $(document).ready(function(){
+                   $('#menu-show').click(function(){
+                    $('#menu-top').slideToggle();
+                  });                 
+                });
+
+              </script>
+            <!--end component menu-->
+          </nav>
+
+          <div class="col-md-4 col-sm-12 col-xs-col-12 logo-section">
+            <a href="/" title="Fine Design">
+              <img class="logo" src="/images/logo.png" alt="Fine Design">
+            </a>
+          </div>
+
+          <div class="col-md-4 col-sm-12 col-xs-col-12 top-phone-section">
+            <div class="col-md-6">
+              <!--start include area-->
+                <ul>
+                  <li><strong>+7 (905) 403-25-20</strong></li>
+                  <li><strong>+7 (909) 457-05-00</strong></li>
+                </ul>
+              <!--end include area-->
+            </div>
+            <div class="col-md-6 callback-section">
+                <!--start component callback-->
+                  <button class="feed-back-m">Обратный связь</button>
+                <!--end component callback-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <main>
+    <div class="container">
+    <!--start section head on seconds page-->
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="section-title">о студии</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 page-descr">
+          <strong>Описание раздела</strong>
+        </div>
+      </div>
+    <!--end section head on seconds page-->
+
+      <div class="row about-one">
+        <div class="col-md-12">
+          <!--start include area about text-->
+            <h3>Как мы работаем</h3>
+            <p>дейные соображения высшего порядка, а также постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по </p>
+          <!--end include area about text-->
+        </div>
+      </div>
+    </div>
+   
+  <!--start component how we work-->
+  <div class="container how-we-work">
+    <div class="row">
+      <!--foreach $arResult-->
+      <div class="col-md-4">
+        <h4>Тесный контакт с заказчиком</h4>
+        <img src="/images/test-i-img-4.png" alt="#">
+        <p>дейные соображения высшего порядка, а также постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по </p>
+      </div>
+      <!--end foreach-->
+
+      <div class="col-md-4">
+        <h4>Тесный контакт с заказчиком</h4>
+        <img src="/images/test-i-img-4.png" alt="#">
+        <p>дейные соображения высшего порядка, а также постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по </p>
+      </div>
+
+      <div class="col-md-4">
+        <h4>Тесный контакт с заказчиком</h4>
+        <img src="/images/test-i-img-4.png" alt="#">
+        <p>дейные соображения высшего порядка, а также постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по </p>
+      </div>
+
+    </div>
+  </div>
+  <!--end component how we work-->
+    <div class="container">
+      <div class="row about-one">
+        <div class="col-md-12">
+          <!--start include area about text tow-->
+          <h3>Как мы работаем</h3>
+          <p>дейные соображения высшего порядка, а также постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по </p>
+          <!--end include area about text two-->
+        </div>
+      </div>
+    </div>
+
+    <!--start component team-->
+    <div class="container team">
+      <div class="row">
+        <!--foreach $arResult-->
+        <div class="col-md-6">
+          <div class="team-cell">
+            <div class="team-head">
+              <h4>Заголовок</h4>
+            </div>
+            <div class="team-cell-wrapper">
+              <img src="/images/test-i-img-5.png" alt="#">
+              <ul class="team-props">
+                <!--foreach $arPropertyies-->
+                <li class="team-props-name">Образование</li>
+                <li class="team-props-value">Высшее</li>
+                <!--end foreach $arPropertyies-->
+                <li class="team-props-name">Образование</li>
+                <li class="team-props-value">Высшее</li>
+                <li class="team-props-name">Образование</li>
+                <li class="team-props-value">Высшее</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!--end foreach $arResult-->
+
+        <div class="col-md-6">
+          <div class="team-cell">
+            <div class="team-head">
+              <h4>Заголовок</h4>
+            </div>
+            <div class="team-cell-wrapper">
+              <img src="/images/test-i-img-5.png" alt="#">
+              <ul class="team-props">
+                <!--foreach $arPropertyies-->
+                <li class="team-props-name">Образование</li>
+                <li class="team-props-value">Высшее</li>
+                <!--end foreach $arPropertyies-->
+                <li class="team-props-name">Образование</li>
+                <li class="team-props-value">Высшее</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!--end component team-->
+    <div class="row about-one">
+      <div class="col-md-12">
+        <!--start include area about text tree-->
+        <h3>Следите за нами в социальных сетях</h3>
+        <p>дейные соображения высшего порядка, а также постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по </p>
+        <!--end include area about text tree-->
+      </div>
+    </div>
+    <div class="row social-widget-about">
+      
+      <div class="col-md-4">
+        <!--start include area vk widget-->
+          <img src="/images/vk-test.jpg" alt="#">
+        <!--end include area vk widget-->
+      </div>
+
+      <div class="col-md-4">
+        <!--start include area fb widget-->
+         <img src="/images/fb-test.jpg" alt="#">
+        <!--end include area fb widget-->        
+      </div>
+
+      <div class="col-md-4">
+        <!--start include area inst widget-->
+         <img src="/images/inst-test.jpg" alt="#">
+        <!--end include area inst widget-->        
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-md-12 about-one">
+        <!--start include area head-->
+        <h3>Где нас еще можно найти</h3>
+        <p>
+          Идейные соображения высшего порядка, а также постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке существенных финансовых и административных условий. Не следует, однако забывать, что укрепление и развитие структуры способствует подготовки и реализации существенных финансовых и административных условий. Не следует, однако забывать, что дальнейшее развитие различных форм деятельности обеспечивает широкому кругу (специалистов) участие в формировании дальнейших направлений развития. 
+        </p>
+        <!--end include area head-->
+          
+        <!--start include area-->
+        <ul class="link-section">
+          <li><a href="#" title="homily"><img src="/images/homily.png" alt="homily"></a></li>
+          <li><a href="#" title="my-home"><img src="/images/my-home.png" alt="my-home"></a></li>
+          <li><a href="#" title="in-my-room"><img src="/images/in-my-room.png" alt="inmyroom"></a></li>
+          <li><a href="#" title="houzz"><img src="/images/houzz.png"  alt="houzz"></a></li>
+          <li><a href="#" title="hi-home"><img src="/images/hi-home.png" alt="hi-home"></a></li>
+        </ul>
+        <!--end include area-->
+       </div>
+    </div>
+  </main>
+  <footer class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <strong class="coop">Fine Design - дизайн интерьров. 2014-2015.</strong>
+      </div>
+      
+      <div class="col-md-3">
+        <ul class="social-ico">
+          <li><a href="" class="vk"></a></li>
+          <li><a href="" class="fb"></a></li>
+          <li><a href="" class="inst"></a></li>
+        </ul>
+      </div>
+      
+      <div class="col-md-3">
+      </div>
+      
+      <div class="col-md-3">
+        Никому не говорите, кто <a href="http://aliens.pro" title="aliens.pro">сделал</a> этот сайт!
+      </div>
+    </div>
+  </footer>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/swiper.min.js"></script>
+  <script src="/js/app.js"></script>
+  </body>
+</html>
