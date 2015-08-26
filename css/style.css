@@ -54,6 +54,9 @@ body{
 	font-family:SegoeUIRegular;
     color: #4c4c4c;
 }
+strong{
+    font-weight: normal;
+}
 .top-section {
     min-height: 100px;
     padding-top:20px;
@@ -73,6 +76,19 @@ body{
     -webkit-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.45);
     -moz-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.45);
     box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.45);
+}
+.see-detal-item {
+    background: #008b9e none repeat scroll 0 0;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 5px 15px;
+    text-decoration: none;
+    display: inline-block;
+}
+.see-detal-item:hover{
+    color:#fff;
+    text-decoration:none;
+    background: #ec008c;
 }
 /*start top menu*/
 nav{
@@ -151,17 +167,17 @@ nav .selected {
 .top-phone-section {
     padding-top: 18px;
 }
-.feed-back-m{
-    margin-top: 10px;
-    background: #008b9e;
-    width: 135px;
-    height: 33px;
-    border: none;
+.feed-back-m {
+    background: #008b9e none repeat scroll 0 0;
+    border: medium none;
     color: #fff;
+    height: 39px;
+    margin-top: 6px;
+    width: 135px;
 }
-.top-phone-section strong{
-    font-size: 1.1em;
+.top-phone-section strong {
     color: #424241;
+    font-size: 1.2em;
 }
 /*start slider component*/
 .slider-container{
@@ -443,19 +459,6 @@ footer{
     line-height: 1.3em;
     padding-top: 10px;
 }
-.see-detal-item {
-    background: #008b9e none repeat scroll 0 0;
-    color: #fff;
-    font-size: 1.2em;
-    padding: 5px 15px;
-    text-decoration: none;
-    display: inline-block;
-}
-.see-detal-item:hover{
-	color:#fff;
-	text-decoration:none;
-	background: #ec008c;
-}
 .blog-list-item{
 	margin-bottom:20px;
 }
@@ -511,6 +514,46 @@ footer{
 }
 .blog-detail-top{
     margin-bottom: 10px;
+}
+#filters {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+    list-style: outside none none;
+    padding-left: 0px;
+    text-align:center;
+}
+#filters > li {
+    display: inline-block;
+}
+#filters button {
+    background: #008b9e none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    display: block;
+    font-family: SegoeUISemiBold;
+    height: 35px;
+    line-height: 1em;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-transform: uppercase;
+    width: 150px;
+}
+#filters button:hover {
+    background: #ec018c;
+}
+.item-portfolio{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.item-portfolio h4 {
+    display: block;
+    height: 38px;
+    overflow: hidden;
+}
+.item-portfolio .see-detal-item {
+    margin-top: 10px;
 }
 /*end component blog-detail*/
 
@@ -604,6 +647,9 @@ footer{
 		border-bottom:2px solid #ccc;
 		padding-bottom:20px;
 	}
+    .logo{
+        width: 100px;
+    }
 
 }
 
@@ -638,9 +684,6 @@ footer{
 @media  (max-width: 480px) {
     nav a {
         font-size: 1.3em;
-    }
-    .logo{
-        width: 100px;
     }
 	.feed-b-btn{
 		font-size:1.4em;
