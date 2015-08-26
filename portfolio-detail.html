@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+      <script src="/js/jquery-2.1.4.min.js"></script>
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet" title="#">
+    <link href="/css/style.css" rel="stylesheet" title="#">
+    <link href="/css/swiper.min.css" rel="stylesheet" title="#">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container-fluid top-fixed">
+      <div class="container">
+        <div class="row top-section">
+          <nav class="col-md-4 col-sm-12 col-xs-col-12">
+            <!--start component menu-->
+              <button id="menu-show" class="show-menu">Меню</button>
+              <ul id="menu-top">
+                <li><a class="selected" href="#" title="#">портфолио</a></li>
+                <li><a href="#" title="#">блог</a></li>
+                <li><a href="#" title="#">о студии</a></li>
+              </ul>
+              <script>
+                $(document).ready(function(){
+                   $('#menu-show').click(function(){
+                    $('#menu-top').slideToggle();
+                  });                 
+                });
+
+              </script>
+            <!--end component menu-->
+          </nav>
+
+          <div class="col-md-4 col-sm-12 col-xs-col-12 logo-section">
+            <a href="/" title="Fine Design">
+              <img class="logo" src="/images/logo.png" alt="Fine Design">
+            </a>
+          </div>
+
+          <div class="col-md-4 col-sm-12 col-xs-col-12 top-phone-section">
+            <div class="col-md-6">
+              <!--start include area-->
+                <ul>
+                  <li><strong>+7 (905) 403-25-20</strong></li>
+                  <li><strong>+7 (909) 457-05-00</strong></li>
+                </ul>
+              <!--end include area-->
+            </div>
+            <div class="col-md-6 callback-section">
+                <!--start component callback-->
+                  <button class="feed-back-m">Обратный связь</button>
+                <!--end component callback-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <main>
+    <div class="container">
+    <!--start section head on seconds page-->
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="section-title">портфолио</h2>
+        </div>
+      </div>
+    <!--end section head on seconds page-->
+    </div>
+    <!--start component portfolio detail-->
+    <div class="container portfolio-detail">
+      <div class="row">
+        <div class="col-md-5 portfolio-detail-img">
+          <img src="/images/test-i-img-2.png" alt="#">
+        </div>
+        <div class="col-md-7 portfolio-right">
+          <div class="head-line-wrapper">
+           <span class="head-line">Характеристики объекта</span>
+          </div>
+          <ul class="portfolio-props">
+            <li><span>Класс объект</span>:<span>Частный дом/Особняк</span></li>
+            <li><span>Класс объект</span>:<span>Частный дом/Особняк</span></li>
+            <li><span>Класс объект</span>:<span>Частный дом/Особняк</span></li>
+            <li><span>Класс объект</span>:<span>Частный дом/Особняк</span></li>
+            <li><span>Класс объект</span>:<span>Частный дом/Особняк</span></li>
+            <li><span>Класс объект</span>:<span>Частный дом/Особняк</span></li>
+          </ul>
+          <div class="head-line-wrapper">
+            <span class="head-line">Статистика проекта</span>
+          </div>
+          <div><span class="see-count">Посмотрели 12 посетителей</span></div>
+          <div><span class="like-count">Понравилось 6 пользователей</span></div>
+          <!--start include area social widget-->
+
+          <!--end include area social wiget-->
+        </div>
+      </div>
+
+      <div class="row gallery-wrapper">
+        <!--foreach gallery img-->
+
+        <div class="col-sm-4 col-xs-12 col-md-1-5">
+          <div class="gallery-cell">
+            <a href="#" title="#">
+              <img src="/images/test-i-img-3.png" alt="#">
+            </a>
+          </div>
+        </div>
+
+        <div class="col-sm-4 col-xs-12 col-md-1-5">
+          <div class="gallery-cell">
+            <a href="#" title="#">
+              <img src="/images/test-i-img-3.png" alt="#">
+            </a>
+          </div>
+        </div>
+
+        <div class="col-sm-4 col-xs-12 col-md-1-5">
+          <div class="gallery-cell">
+            <a href="#" title="#">
+              <img src="/images/test-i-img-3.png" alt="#">
+            </a>
+          </div>
+        </div>
+
+        <div class="col-sm-4 col-xs-12 col-md-1-5">
+          <div class="gallery-cell">
+            <a href="#" title="#">
+              <img src="/images/test-i-img-3.png" alt="#">
+            </a>
+          </div>
+        </div>
+
+        <div class="col-sm-4 col-xs-12 col-md-1-5">
+          <div class="gallery-cell">
+            <a href="#" title="#">
+              <img src="/images/test-i-img-3.png" alt="#">
+            </a>
+          </div>
+        </div>
+
+          <div class="col-sm-4 col-xs-12 col-md-1-5">
+          <div class="gallery-cell">
+            <a href="#" title="#">
+              <img src="/images/test-i-img-3.png" alt="#">
+            </a>
+          </div>
+        </div>
+
+          <div class="col-sm-4 col-xs-12 col-md-1-5">
+          <div class="gallery-cell">
+            <a href="#" title="#">
+              <img src="/images/test-i-img-3.png" alt="#">
+            </a>
+          </div>
+        </div>
+
+        <!--end foreach gallery img-->
+      </div>
+
+      <div class="row video-wrapper">
+        <div class="col-md-12">
+          <div class="video"></div>
+          <!--video property-->
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12 portfolio-detail-text">
+           Идейные соображения высшего порядка, а также постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке существенных финансовых и административных условий. Не следует, однако забывать, что укрепление и развитие структуры способствует подготовки и реализации существенных финансовых и административных условий. Не следует, однако забывать, что дальнейшее развитие различных форм деятельности обеспечивает широкому кругу (специалистов) участие в формировании дальнейших направлений развития.
+
+            Товарищи! постоянный количественный рост и сфера нашей активности требуют от нас анализа позиций, занимаемых участниками в отношении поставленных задач. Таким образом начало повседневной работы по формированию позиции требуют определения и уточнения новых предложений. Таким образом консультация с широким активом влечет за собой процесс внедрения и модернизации форм развития. Разнообразный и богатый опыт постоянное информационно-пропагандистское обеспечение нашей деятельности требуют от нас анализа систем массового участия.
+
+            С другой стороны реализация намеченных плановых заданий позволяет выполнять важные задания по разработке существенных финансовых и административных условий. Повседневная практика показывает, что реализация намеченных плановых заданий позволяет оценить значение направлений прогрессивного развития. 
+        </div>
+      </div>
+    </div>
+    <!--end component portfolio detail-->
+  </main>
+  <footer class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <strong class="coop">Fine Design - дизайн интерьров. 2014-2015.</strong>
+      </div>
+      
+      <div class="col-md-3">
+        <ul class="social-ico">
+          <li><a href="" class="vk"></a></li>
+          <li><a href="" class="fb"></a></li>
+          <li><a href="" class="inst"></a></li>
+        </ul>
+      </div>
+      
+      <div class="col-md-3">
+      </div>
+      
+      <div class="col-md-3">
+        Никому не говорите, кто <a href="http://aliens.pro" title="aliens.pro">сделал</a> этот сайт!
+      </div>
+    </div>
+  </footer>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/swiper.min.js"></script>
+  <script src="/js/app.js"></script>
+  </body>
+</html>

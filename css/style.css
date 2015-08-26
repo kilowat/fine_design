@@ -515,6 +515,9 @@ footer{
 .blog-detail-top{
     margin-bottom: 10px;
 }
+/*end component blog-detail*/
+
+/*start component portfolio list*/
 #filters {
     margin-top: 25px;
     margin-bottom: 25px;
@@ -555,7 +558,70 @@ footer{
 .item-portfolio .see-detal-item {
     margin-top: 10px;
 }
-/*end component blog-detail*/
+/*end component portfolio list*/
+
+/*start component portfolio detail*/
+.portfolio-props {
+    font-size: 1.1em;
+    list-style: outside none none;
+    margin: 0 0 10px;
+    padding: 0;
+}
+.portfolio-detail-img img{
+
+}
+.head-line {
+    display: block;
+    font-family: SegoeUISemiBold;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.head-line-wrapper{
+    text-align: center;
+}
+.portfolio-detail .see-count::before {
+    left: -38px;
+}
+.portfolio-detail .see-count {
+        margin-left: 45px;
+    font-size: 1.1em;
+    font-family: SegoeUISemiBold;
+}
+.portfolio-detail .like-count{
+    margin-left: 45px;
+
+    font-size: 1.1em;
+    font-family: SegoeUISemiBold;
+}
+.portfolio-detail .like-count::before{
+    left: -31px;
+}
+.portfolio-right {
+    margin-left: 0;
+    padding-left: 0;
+}
+.portfolio-detail-img{
+
+}
+.gallery-wrapper .col-xs-1-5, .gallery-wrapper .col-sm-1-5, .gallery-wrapper .col-md-1-5, .gallery-wrapper .col-lg-1-5{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.gallery-wrapper{
+    margin-top: 30px;
+}
+.gallery-cell {
+    margin-bottom: 15px;
+}
+.video{
+    height: 360px;
+    background: #000;
+}
+.video-wrapper{
+    margin-bottom: 10px;
+}
+/*end component portfolio detail*/
 
 /***dop media query form other display**/
 @media (min-width: 1200px) {
